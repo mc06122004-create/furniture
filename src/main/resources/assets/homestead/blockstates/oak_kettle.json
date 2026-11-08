@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,lit=false": { "model": "homestead:block/oak_kettle", "y": 0 },
+    "facing=east,lit=false":  { "model": "homestead:block/oak_kettle", "y": 90 },
+    "facing=south,lit=false": { "model": "homestead:block/oak_kettle", "y": 180 },
+    "facing=west,lit=false":  { "model": "homestead:block/oak_kettle", "y": 270 },
+    "facing=north,lit=true":  { "model": "homestead:block/oak_kettle", "y": 0 },
+    "facing=east,lit=true":   { "model": "homestead:block/oak_kettle", "y": 90 },
+    "facing=south,lit=true":  { "model": "homestead:block/oak_kettle", "y": 180 },
+    "facing=west,lit=true":   { "model": "homestead:block/oak_kettle", "y": 270 }
+  }
+}
