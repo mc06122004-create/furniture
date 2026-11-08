@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "IGI", "III"],
+  "key": { "I": { "item": "minecraft:iron_ingot" }, "G": { "item": "minecraft:glass" } },
+  "result": { "item": "homestead:oak_television", "count": 1 }
+}
