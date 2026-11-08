@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "homestead:block/blue_coffee_table",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "homestead:block/blue_coffee_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "homestead:block/blue_coffee_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "homestead:block/blue_coffee_table",
+      "y": 270
+    }
+  }
+}

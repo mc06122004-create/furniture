@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "homestead:block/oak_laundry_basket", "y": 0 },
+    "facing=east":  { "model": "homestead:block/oak_laundry_basket", "y": 90 },
+    "facing=south": { "model": "homestead:block/oak_laundry_basket", "y": 180 },
+    "facing=west":  { "model": "homestead:block/oak_laundry_basket", "y": 270 }
+  }
+}

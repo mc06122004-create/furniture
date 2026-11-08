@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "homestead:block/oak_computer_desk", "y": 0 },
+    "facing=east":  { "model": "homestead:block/oak_computer_desk", "y": 90 },
+    "facing=south": { "model": "homestead:block/oak_computer_desk", "y": 180 },
+    "facing=west":  { "model": "homestead:block/oak_computer_desk", "y": 270 }
+  }
+}

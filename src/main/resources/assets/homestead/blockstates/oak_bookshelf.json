@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "homestead:block/oak_bookshelf",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "homestead:block/oak_bookshelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "homestead:block/oak_bookshelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "homestead:block/oak_bookshelf",
+      "y": 270
+    }
+  }
+}
