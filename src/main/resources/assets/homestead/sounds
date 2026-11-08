@@ -1,0 +1,56 @@
+{
+  "microwave_loop": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "homestead:microwave_loop",
+        "stream": false
+      }
+    ]
+  },
+  "microwave_done": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "homestead:microwave_done",
+        "stream": false
+      }
+    ]
+  },
+  "stove_sizzle": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "homestead:stove_sizzle",
+        "stream": false
+      }
+    ]
+  },
+  "washing_machine_loop": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "homestead:washing_machine_loop",
+        "stream": true
+      }
+    ]
+  },
+  "kettle_boil": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "homestead:kettle_boil",
+        "stream": false
+      }
+    ]
+  },
+  "coffee_machine": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "homestead:kettle_boil",
+        "stream": false
+      }
+    ]
+  }
+}
