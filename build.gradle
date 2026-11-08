@@ -1,0 +1,80 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+group = 'ru.homestead'
+version = '0.16.0'
+
+base { archivesName = 'homestead' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods { homestead { source sourceSets.main } }
+        }
+        client {}
+        server { args '--nogui' }
+        gameTestServer {}
+        data {
+            workingDirectory project.file('run-data')
+            args '--mod', 'homestead', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
+
+    // Video decode (client). User needs these at runtime for playback.
+    implementation 'org.bytedeco:javacv:1.5.10'
+    implementation 'org.bytedeco:ffmpeg:6.1.1-1.5.10'
+    implementation 'org.bytedeco:ffmpeg:6.1.1-1.5.10:windows-x86_64'
+    implementation 'org.bytedeco:ffmpeg:6.1.1-1.5.10:linux-x86_64'
+    implementation 'org.bytedeco:ffmpeg:6.1.1-1.5.10:macosx-x86_64'
+    implementation 'org.bytedeco:ffmpeg:6.1.1-1.5.10:macosx-arm64'
+    implementation 'org.bytedeco:javacpp:1.5.10'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+        minecraft_version: '1.20.1',
+        minecraft_version_range: '[1.20.1,1.20.2)',
+        forge_version: '47.2.0',
+        forge_version_range: '[47,)',
+        loader_version_range: '[47,)',
+        mod_id: 'homestead',
+        mod_name: 'Homestead',
+        mod_license: 'All Rights Reserved',
+        mod_version: project.version,
+        mod_authors: 'Homestead Team',
+        mod_description: 'A modular modern home furnishing and interior decoration mod.'
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications { register('mavenJava', MavenPublication) { artifact jar } }
+    repositories { maven { url = layout.buildDirectory.dir('repo') } }
+}
