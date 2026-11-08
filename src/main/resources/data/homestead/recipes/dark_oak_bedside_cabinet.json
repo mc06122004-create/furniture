@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W",
+    "S S"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "homestead:dark_oak_bedside_cabinet",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["WWW", "W W", "S S"],
+  "key": { "W": { "item": "minecraft:oak_planks" }, "S": { "item": "minecraft:stick" } },
+  "result": { "item": "homestead:oak_computer_desk", "count": 1 }
+}
