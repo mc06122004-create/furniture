@@ -1,0 +1,8 @@
+{"textures":{"wood":"homestead:block/oak_stool","particle":"homestead:block/oak_stool"},"elements":[
+{"from":[3,0,3],"to":[5,10,5],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[11,0,3],"to":[13,10,5],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[3,0,11],"to":[5,10,13],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[11,0,11],"to":[13,10,13],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[2,10,2],"to":[14,12,14],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[4,5,4],"to":[12,6,12],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}}
+]}

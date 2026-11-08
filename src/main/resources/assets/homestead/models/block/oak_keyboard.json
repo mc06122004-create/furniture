@@ -1,0 +1,3 @@
+{"textures":{"wood":"homestead:block/oak_chair","particle":"homestead:block/oak_chair"},"elements":[
+{"from":[1,0,4],"to":[15,1,12],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}}
+]}

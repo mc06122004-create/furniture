@@ -1,0 +1,5 @@
+{"textures":{"wood":"homestead:block/ceramic_white","particle":"homestead:block/ceramic_white"},"elements":[
+{"from":[2,0,4],"to":[14,10,14],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[3,10,5],"to":[13,11,13],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[7,11,8],"to":[9,14,10],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}}
+]}
