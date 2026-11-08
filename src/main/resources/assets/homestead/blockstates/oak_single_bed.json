@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "homestead:block/oak_single_bed", "y": 0 },
-    "facing=east":  { "model": "homestead:block/oak_single_bed", "y": 90 },
-    "facing=south": { "model": "homestead:block/oak_single_bed", "y": 180 },
-    "facing=west":  { "model": "homestead:block/oak_single_bed", "y": 270 }
-  }
-}
