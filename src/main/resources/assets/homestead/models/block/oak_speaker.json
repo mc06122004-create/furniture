@@ -1,0 +1,4 @@
+{"textures":{"wood":"homestead:block/metal_gray","particle":"homestead:block/metal_gray"},"elements":[
+{"from":[5,0,5],"to":[11,12,11],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[6,8,4.8],"to":[10,11,5],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}}
+]}

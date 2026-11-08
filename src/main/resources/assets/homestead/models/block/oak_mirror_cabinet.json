@@ -1,0 +1,4 @@
+{"textures":{"wood":"homestead:block/oak_bedside_cabinet","particle":"homestead:block/oak_bedside_cabinet"},"elements":[
+{"from":[2,2,10],"to":[14,14,16],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}},
+{"from":[3,3,9.9],"to":[13,13,10],"faces":{"north":{"texture":"#wood"},"east":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"up":{"texture":"#wood"},"down":{"texture":"#wood"}}}
+]}

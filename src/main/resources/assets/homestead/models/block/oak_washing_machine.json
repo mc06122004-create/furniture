@@ -1,0 +1,6 @@
+{"textures":{"0":"homestead:block/metal_gray","particle":"homestead:block/metal_gray"},"elements":[
+{"from":[1,0,1],"to":[15,16,15],"faces":{"north":{"texture":"#0"},"east":{"texture":"#0"},"south":{"texture":"#0"},"west":{"texture":"#0"},"up":{"texture":"#0"},"down":{"texture":"#0"}}},
+{"from":[4,3,0.7],"to":[12,11,1],"faces":{"north":{"texture":"#0"},"east":{"texture":"#0"},"south":{"texture":"#0"},"west":{"texture":"#0"},"up":{"texture":"#0"},"down":{"texture":"#0"}}},
+{"from":[5,4,0.5],"to":[11,10,0.7],"faces":{"north":{"texture":"#0"},"east":{"texture":"#0"},"south":{"texture":"#0"},"west":{"texture":"#0"},"up":{"texture":"#0"},"down":{"texture":"#0"}}},
+{"from":[12,13,0.8],"to":[14,15,1.2],"faces":{"north":{"texture":"#0"},"east":{"texture":"#0"},"south":{"texture":"#0"},"west":{"texture":"#0"},"up":{"texture":"#0"},"down":{"texture":"#0"}}}
+]}
